@@ -1,3 +1,5 @@
 # Configure credential OpenStack Provider
-provider "openstack" {}
+provider "openstack" {
+  insecure: true
+  }
 
